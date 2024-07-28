@@ -1,0 +1,93 @@
+{
+  "HALProvider": {
+    "Encoders": {
+      "0": {
+        "header": {
+          "open": true
+        }
+      },
+      "1": {
+        "header": {
+          "open": true
+        }
+      },
+      "2": {
+        "header": {
+          "open": true
+        }
+      },
+      "3": {
+        "header": {
+          "open": true
+        }
+      },
+      "window": {
+        "visible": true
+      }
+    },
+    "Other Devices": {
+      "BuiltInAccel": {
+        "header": {
+          "open": true
+        }
+      },
+      "DutyCycleEncoder[12]": {
+        "header": {
+          "open": true
+        }
+      },
+      "DutyCycleEncoder[13]": {
+        "header": {
+          "open": true
+        }
+      },
+      "DutyCycleEncoder[14]": {
+        "header": {
+          "open": true
+        }
+      },
+      "DutyCycleEncoder[15]": {
+        "header": {
+          "open": true
+        }
+      },
+      "motor3": {
+        "header": {
+          "open": true
+        }
+      },
+      "motor5": {
+        "header": {
+          "open": true
+        }
+      },
+      "motor7": {
+        "header": {
+          "open": true
+        }
+      },
+      "motorL": {
+        "header": {
+          "open": true
+        }
+      }
+    }
+  },
+  "NTProvider": {
+    "types": {
+      "/FMSInfo": "FMSInfo",
+      "/SmartDashboard/Auto Selector": "String Chooser"
+    }
+  },
+  "NetworkTables": {
+    "Retained Values": {
+      "open": false
+    },
+    "Transitory Values": {
+      "open": false
+    }
+  },
+  "NetworkTables Info": {
+    "visible": true
+  }
+}
