@@ -68,10 +68,10 @@ void SwerveModule::SetDesiredState(
   const auto turnOutput = m_turningPIDController.Calculate(
       units::radian_t{m_turningEncoder.Get() * 2 * std::numbers::pi}, state.angle.Radians());
 
-  const auto turnFeedforward = m_turnFeedforward.Calculate(
-      m_turningPIDController.GetSetpoint().velocity);
+//  const auto turnFeedforward = m_turnFeedforward.Calculate(
+//      m_turningPIDController.GetSetpoint().velocity);
 
   // Set the motor outputs.
   m_driveMotor.SetVoltage(units::volt_t{driveOutput} + driveFeedforward);
-  m_turningMotor.SetVoltage(units::volt_t{turnOutput} + turnFeedforward);
+  m_turningMotor.SetVoltage(units::volt_t{turnOutput} /*+ turnFeedforward*/);
 }

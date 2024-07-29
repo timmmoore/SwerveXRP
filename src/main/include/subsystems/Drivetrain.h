@@ -76,7 +76,7 @@ class Drivetrain : public frc2::SubsystemBase {
   void UpdateOdometry();
 
   static constexpr units::meters_per_second_t kMaxSpeed =
-      1.0_mps;  // 1 //3 meters per second
+      0.34_mps;  // 1/3 meters per second
   static constexpr units::radians_per_second_t kMaxAngularSpeed{
       std::numbers::pi};  // 1/2 rotation per second
 
