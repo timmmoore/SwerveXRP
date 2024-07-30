@@ -8,6 +8,10 @@
 #include <frc/XboxController.h>
 #include <frc/smartdashboard/SendableChooser.h>
 #include <frc/xrp/XRPOnBoardIO.h>
+#include <frc/xrp/XRPRangefinder.h>
+#include <frc/xrp/XRPReflectanceSensor.h>
+#include <frc/AnalogInput.h>
+
 #include <frc2/command/Command.h>
 #include <frc2/command/CommandPtr.h>
 #include <frc2/command/button/Trigger.h>
@@ -51,6 +55,9 @@ class RobotContainer {
   Drivetrain m_drive;
   Arm m_arm;
   frc::XRPOnBoardIO m_onboardIO;
+  frc::XRPReflectanceSensor m_RS;
+  frc::XRPRangefinder m_rf;
+  frc::AnalogInput m_batteryVoltage{3};
 
   // Example button
   frc2::Trigger m_userButton{

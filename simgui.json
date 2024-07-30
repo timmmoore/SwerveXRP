@@ -1,5 +1,10 @@
 {
   "HALProvider": {
+    "Analog Inputs": {
+      "window": {
+        "visible": true
+      }
+    },
     "Encoders": {
       "0": {
         "header": {
@@ -56,6 +61,11 @@
           "open": true
         }
       },
+      "motor4": {
+        "header": {
+          "open": true
+        }
+      },
       "motor5": {
         "header": {
           "open": true
@@ -70,6 +80,19 @@
         "header": {
           "open": true
         }
+      },
+      "motorR": {
+        "header": {
+          "open": true
+        }
+      }
+    },
+    "RoboRIO": {
+      "RoboRIO Input": {
+        "open": true
+      },
+      "window": {
+        "visible": true
       }
     }
   },
@@ -82,12 +105,12 @@
   "NetworkTables": {
     "Retained Values": {
       "open": false
-    },
-    "Transitory Values": {
-      "open": false
     }
   },
   "NetworkTables Info": {
+    "Server": {
+      "open": true
+    },
     "visible": true
   }
 }
