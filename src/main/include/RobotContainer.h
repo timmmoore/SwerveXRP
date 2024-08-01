@@ -57,7 +57,6 @@ class RobotContainer {
   frc::XRPOnBoardIO m_onboardIO;
   frc::XRPReflectanceSensor m_RS;
   frc::XRPRangefinder m_rf;
-  frc::AnalogInput m_batteryVoltage{3};
 
   // Example button
   frc2::Trigger m_userButton{

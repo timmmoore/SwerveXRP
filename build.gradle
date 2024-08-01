@@ -6,8 +6,8 @@ plugins {
 
 wpi.maven.useLocal = false
 wpi.maven.useFrcMavenLocalDevelopment = true
-wpi.versions.wpilibVersion = '2024.424242.+'
-wpi.versions.wpimathVersion = '2024.424242.+'
+wpi.versions.wpilibVersion = '2025.424242.+'
+wpi.versions.wpimathVersion = '2025.424242.+'
 
 // Simulation configuration (e.g. environment variables).
 wpi.sim.addGui().defaultEnabled = true
