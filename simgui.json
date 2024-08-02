@@ -61,11 +61,6 @@
           "open": true
         }
       },
-      "motor4": {
-        "header": {
-          "open": true
-        }
-      },
       "motor5": {
         "header": {
           "open": true
